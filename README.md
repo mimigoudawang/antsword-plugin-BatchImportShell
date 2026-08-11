@@ -99,20 +99,4 @@ JSON 格式中，每条记录的字段可以覆盖全局配置。`http_headers` 
 | HTTP Body | 自定义POST参数（JSON格式） | 空 |
 | URL去重 | 是否跳过已存在的Shell | 是 |
 
-## 与原版 ImportShell 的区别
-
-| 特性 | 原版 ImportShell | 本插件 |
-|------|-----------------|--------|
-| 导入方式 | 追加文本到 db.ant | IPC shell-add |
-| 是否需要重启 | 是 | 否 |
-| 编码器/解码器 | ❌ | ✅ |
-| HTTP 配置 | ❌ | ✅ |
-| 忽略HTTPS证书 | ❌ | ✅ |
-| 字符编码 | ❌ | ✅ |
-| CSV 格式 | ❌ | ✅ |
-| URL 去重 | ❌ | ✅ |
-| 数据验证 | ❌ | ✅ |
-
-## License
-
 GPLv3
