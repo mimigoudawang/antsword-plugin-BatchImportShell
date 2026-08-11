@@ -1,0 +1,16 @@
+{
+  "name": "批量导入Shell",
+  "name_en": "BatchImportShell",
+  "main": "index.js",
+  "icon": "sign-in",
+  "version": "1.0.0",
+  "description": "批量导入AntSword Shell配置，支持编码器/解码器/HTTP配置",
+  "description_en": "Batch import AntSword shell configs with encoder/decoder/HTTP options",
+  "author": {
+    "name": "stour"
+  },
+  "category": "数据导入",
+  "category_en": "Data Import",
+  "multiple": false,
+  "scripts": ["*", "php", "php4", "asp", "aspx", "jsp", "custom"]
+}
